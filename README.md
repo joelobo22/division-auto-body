@@ -1,26 +1,34 @@
 # Division Auto Body Inc.
-### Official Website Project Repository
+### Established 1977 | Premier Collision Restoration & Insurance Advocacy
 
-This repository hosts the digital presence for **Division Auto Body Inc.**, a premier collision repair facility established in 1977. 
+This repository hosts the digital presence for **Division Auto Body Inc.**, a family-owned institution specializing in factory-spec restoration and unibody calibration for the NJ/NY tri-state area.
 
 ---
 
-## 📍 Business Overview
-* **Location:** 156 Route 35, Keyport, NJ 07735
-* **Founder:** Denis Denisov
-* **Facility Size:** 3,300 sq. ft.
-* **Capacity:** 6 full-service bays + professional paint booth
-* **Specialties:** Expert paint matching & high-end collision restoration
+## 👤 Ownership & Heritage
+* **Principal/Founder:** Denis Denisov
+* **Legacy:** Serving the community for 49 years (Established 1977).
+* **Philosophy:** Uncompromising craftsmanship and owner-operator accountability.
 
-## 🛡️ Credentials & Compliance
+## 📍 Strategic Reach (20-Mile Radius)
+* **Primary Hub:** 156 Route 35, Keyport, NJ 07735
+* **Regional Coverage:** Monmouth County, Middlesex County, and Staten Island, NY.
+* **Target Markets:** Holmdel, Colts Neck, Rumson, Marlboro, Middletown, and Woodbridge.
+
+## 🖋️ Core Service Philosophy
+* **Unibody Calibration:** Precision structural alignment to restore vehicle integrity to original safety standards.
+* **Factory-Spec Refinishing:** Master-level paint matching using high-performance chemistry for a seamless showroom finish.
+* **Insurance Advocacy:** Expert management of the claims process, prioritizing **OEM (Original Equipment Manufacturer) parts** over aftermarket alternatives.
+
+## 🛡️ Shop Credentials
 * **NJ State License:** #03175A
 * **Official Entity ID:** 0100030588
-* **Established:** 1977 (49 years of service)
+* **Facility:** 3,300 sq. ft. specialized studio with 6 full-service bays and professional paint booth.
 
-## 🛠️ Project Structure
-* `index.html`: The core website file. It includes integrated SEO metadata, business schema, and mobile-responsive styling.
-* `/images`: Dedicated directory for high-resolution shop photography captured via Fujifilm X-S20.
-* **Architecture:** Single-file design for maximum loading speed and reliability.
+## 🛠️ Project Technicals
+* `index.html`: Optimized single-file architecture with a "20-mile net" SEO strategy.
+* `/images`: High-fidelity asset gallery for Fujifilm X-S20 shop photography.
 
 ---
-*Last Updated: April 2026*
+*Last Updated: April 2026 | Verified by Ownership*
+
