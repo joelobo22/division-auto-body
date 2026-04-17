@@ -1,78 +1,105 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Division Auto Body | Expert Collision, Towing & Total Loss Support | Keyport NJ</title>
-    <meta name="description" content="Division Auto Body Inc: Specialist in factory-spec restoration and insurance advocacy. Led by Owner Denis Denisov. Serving the NJ/NY area since 1977.">
-    
+    <title>Division Auto Body | Elite Collision Restoration & Insurance Advocacy | Keyport NJ</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height: 1.6; margin: 0; color: #1a1a1a; background-color: #fff; }
-        header { background: #000; color: #fff; padding: 60px 20px; text-align: center; border-bottom: 5px solid #d32f2f; }
-        .hero { padding: 80px 20px; text-align: center; background: #fdfdfd; border-bottom: 1px solid #eee; }
-        .hero h2 { font-size: 2.2rem; letter-spacing: -0.5px; margin-bottom: 15px; color: #000; }
-        .btn { background: #d32f2f; color: white; padding: 18px 35px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 30px; text-transform: uppercase; letter-spacing: 1px; transition: background 0.3s; }
-        .btn:hover { background: #b71c1c; }
-        .container { max-width: 1000px; margin: auto; padding: 50px 20px; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
-        .box { background: #f9f9f9; padding: 35px; border-radius: 4px; border-left: 5px solid #d32f2f; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .box h3 { margin-top: 0; text-transform: uppercase; font-size: 1rem; letter-spacing: 1px; color: #d32f2f; }
-        footer { background: #1a1a1a; color: #999; text-align: center; padding: 60px 20px; font-size: 0.85rem; }
-        .seo-tags { color: #f9f9f9; font-size: 1px; height: 1px; overflow: hidden; opacity: 0.01; }
-        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } .hero h2 { font-size: 1.8rem; } }
+        header { background: #000; color: #fff; padding: 50px 20px; text-align: center; border-bottom: 5px solid #d32f2f; }
+        .hero { padding: 60px 20px; text-align: center; background: #fdfdfd; }
+        .hero h2 { font-size: 2.2rem; letter-spacing: -1px; margin-bottom: 15px; color: #000; font-weight: 700; }
+        .btn { background: #d32f2f; color: white; padding: 18px 35px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block; margin-top: 20px; text-transform: uppercase; letter-spacing: 2px; }
+        
+        /* Master Gallery Styling */
+        .section-title { text-align: center; text-transform: uppercase; letter-spacing: 3px; font-size: 0.9rem; color: #d32f2f; margin: 40px 0 20px; font-weight: 800; }
+        .main-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1200px; margin: 0 auto 40px; padding: 0 20px; }
+        .main-gallery img { width: 100%; height: 500px; object-fit: cover; border-radius: 4px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+        
+        .sub-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1200px; margin: 0 auto 60px; padding: 0 20px; }
+        .sub-gallery img { width: 100%; height: 350px; object-fit: cover; border-radius: 4px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+        .container { max-width: 1200px; margin: auto; padding: 40px 20px; background: #f9f9f9; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px; }
+        .box { background: #fff; padding: 30px; border-radius: 2px; border: 1px solid #eee; border-top: 5px solid #d32f2f; }
+        .box h3 { margin-top: 0; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 2px; color: #d32f2f; font-weight: 800; }
+        .box ul { padding-left: 0; list-style: none; margin: 20px 0 0; }
+        .box li { margin-bottom: 10px; font-size: 0.95rem; color: #444; border-bottom: 1px solid #f4f4f4; padding-bottom: 8px; }
+        
+        footer { background: #111; color: #666; text-align: center; padding: 60px 20px; font-size: 0.8rem; }
+        @media (max-width: 850px) { .grid, .main-gallery, .sub-gallery { grid-template-columns: 1fr; } .main-gallery img, .sub-gallery img { height: auto; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h1 style="margin:0; letter-spacing: 4px; font-size: 1.8rem;">DIVISION AUTO BODY INC</h1>
-    <p style="margin:10px 0 0; opacity: 0.7; font-weight: 300; letter-spacing: 2px;">FACTORY-SPEC RESTORATION | EST. 1977</p>
+    <h1 style="margin:0; letter-spacing: 6px; font-size: 1.4rem; font-weight: 900;">DIVISION AUTO BODY INC</h1>
+    <p style="margin:10px 0 0; opacity: 0.6; font-weight: 300; letter-spacing: 3px; font-size: 0.75rem;">CRAFTSMANSHIP • INTEGRITY • LEGACY | EST. 1977</p>
 </header>
 
 <div class="hero">
-    <h2>Collision Restoration & Insurance Advocacy</h2>
-    <p>Carrying forward a 49-year legacy of excellence, **Owner Denis Denisov** leads a team dedicated to elite structural repair and <strong>Total Loss Consulting</strong> for the tri-state area.</p>
-    <a href="tel:7325669416" class="btn">Call for Towing or Estimates</a>
+    <h2>Exceptional Standards. Guaranteed Integrity.</h2>
+    <p style="max-width: 750px; margin: auto; font-size: 1.1rem; color: #555;">Led by **Owner Denis Denisov**, we specialize in factory-spec structural restoration for supercars and luxury vehicles. We protect your investment and your safety.</p>
+    <a href="tel:7325669416" class="btn">Request Consultation</a>
+</div>
+
+<div class="section-title">Featured Supercar Restoration</div>
+<div class="main-gallery">
+    <img src="mclaren-structural-1.jpg" alt="McLaren Structural Restoration Rear">
+    <img src="mclaren-structural-2.jpg" alt="McLaren Frame Calibration Front">
+</div>
+
+<div class="section-title">Our Facility & Master Technicians</div>
+<div class="sub-gallery">
+    <img src="team-at-work.jpg" alt="Division Auto Body Team Technicians">
+    <img src="shop-exterior.jpg" alt="Division Auto Body Keyport NJ Facility">
 </div>
 
 <div class="container">
-    <div class="box" style="margin-bottom: 30px;">
-        <h3>The Uncompromising Standard</h3>
-        <p>Our facility is engineered for <strong>Unibody Frame Calibration</strong> and <strong>Precision Paint Matching</strong>. We prioritize <strong>OEM parts</strong> and provide expert <strong>Insurance Advocacy</strong> to protect both your safety and your vehicle's resale value.</p>
-    </div>
-
+    <div class="section-title" style="margin-top:0;">Specialized Service Portfolios</div>
     <div class="grid">
         <div class="box">
-            <h3>Total Loss Support</h3>
-            <p>If your vehicle is totaled, we represent your interests. We provide expert assessments to help you navigate the insurance process and ensure you receive a fair market valuation for your claim.</p>
+            <h3>Structural Mastery</h3>
+            <ul>
+                <li>Precision Unibody Calibration</li>
+                <li>Specialized Aluminum Repair</li>
+                <li>Elite Collision Restoration</li>
+                <li>OEM Panel Integration</li>
+                <li>Certified Structural Welding</li>
+                <li>Advanced Airbag Calibration</li>
+                <li>Hail & Rust Remediation</li>
+            </ul>
         </div>
         <div class="box">
-            <h3>Service & Towing</h3>
-            <p><strong>Mon – Fri:</strong> 9:00 AM – 6:00 PM<br>
-               <strong>Saturday:</strong> By Appointment<br>
-               <strong>Sunday:</strong> Closed<br>
-               <em>*Towing available during business hours</em></p>
+            <h3>Refinishing & Protection</h3>
+            <ul>
+                <li>Showroom-Grade Custom Paint</li>
+                <li>Eco-Conscious Refinishing</li>
+                <li>Ceramic Coating Systems</li>
+                <li>Paint Protection Film (PPF)</li>
+                <li>Paintless Dent Restoration</li>
+                <li>Optical Glass & Headlight Clarity</li>
+                <li>Boutique Detailing Services</li>
+            </ul>
         </div>
         <div class="box">
-            <h3>Our Studio</h3>
-            <p>156 Route 35<br>Keyport, NJ 07735<br>6-Bay Specialized Facility</p>
-        </div>
-        <div class="box">
-            <h3>Credentials</h3>
-            <p>NJ State License: #03175A<br>Official Entity: 0100030588</p>
+            <h3>Concierge & Advocacy</h3>
+            <ul>
+                <li>Total Loss Value Consulting</li>
+                <li>Strategic Insurance Advocacy</li>
+                <li>Lease Return Compliance Repair</li>
+                <li>Technical Wheel Alignment</li>
+                <li>Bespoke Upholstery Repair</li>
+                <li>Priority Daytime Towing (9-6)</li>
+                <li>Multi-Point Safety Inspections</li>
+            </ul>
         </div>
     </div>
 </div>
 
 <footer>
-    <p>&copy; 2026 Division Auto Body Inc. | Led by Owner Denis Denisov</p>
-    <div style="margin-top: 20px; font-size: 0.75rem; line-height: 1.8; max-width: 800px; margin-left: auto; margin-right: auto;">
-        <strong>Strategic Service Area:</strong> Keyport, Hazlet, Holmdel, Middletown, Red Bank, Colts Neck, Rumson, Marlboro, Aberdeen, Matawan, Old Bridge, Sayreville, and Staten Island.
-    </div>
-    <div class="seo-tags">
-        Total loss car help NJ, totaled vehicle estimate, insurance claim advocate, towing service Keyport NJ, collision repair Keyport, paint matching Holmdel, frame straightening Middletown, lease return repair Monmouth County, bumper replacement 07735, insurance claim assistance, Staten Island collision repair, Rumson car restoration, OEM parts specialist, accident recovery NJ.
-    </div>
+    <p>DIVISION AUTO BODY INC. | NEW JERSEY STATE LICENSE: #03175A</p>
+    <p style="margin-top: 15px;">156 ROUTE 35, KEYPORT, NJ 07735 | SINCE 1977</p>
 </footer>
 
 </body>
