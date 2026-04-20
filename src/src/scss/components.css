@@ -1,0 +1,18 @@
+/* Custom Buttons */
+.btn-primary {
+  --bs-btn-bg: #374162;
+  --bs-btn-border-color: #374162;
+  --bs-btn-color: #fff;
+}
+
+/* Dropdown Customization */
+.dropdown-menu {
+  --bs-dropdown-link-active-bg: #374162;
+  --bs-dropdown-box-shadow: var(--bs-box-shadow);
+}
+
+/* Card Styling */
+.card {
+  --bs-card-border-radius: var(--bs-border-radius);
+  --bs-card-border-color: var(--bs-border-color-translucent);
+}
