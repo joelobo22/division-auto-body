@@ -1,0 +1,28 @@
+// Division Auto Body Inc. - Brand Variables
+// "Car Club" Inspired Palette
+
+// 1. Primary Colors
+$primary: #d32f2f;    // Racing Red
+$black: #0a0a0a;      // Deep Background Black
+$white: #ffffff;      // High-Contrast White
+$dark-gray: #1a1a1a;  // Surface Gray
+
+// 2. Bootstrap Overrides
+$body-bg: $black;
+$body-color: $white;
+$link-color: $primary;
+
+// 3. Spacing & Borders
+$border-radius: 0;    // Aggressive sharp corners (no rounded edges)
+$border-width: 2px;
+$border-color: #222;
+
+// 4. Typography Settings
+$font-family-sans-serif: 'Montserrat Variable', sans-serif;
+$headings-font-weight: 900;
+$headings-text-transform: uppercase;
+
+// 5. Button Overrides
+$btn-border-radius: 0;
+$btn-font-weight: 800;
+$btn-text-transform: uppercase;
