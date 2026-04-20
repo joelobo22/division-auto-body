@@ -1,0 +1,43 @@
+// DIVISION AUTO BODY INC - GLOBAL THEME
+// Based on Car Club Tire Aesthetic (Red/Black/White)
+
+// 1. BRAND VARIABLES
+$primary-red: #d32f2f;
+$deep-black: #0a0a0a;
+$pure-white: #ffffff;
+$off-white: #f4f4f4;
+
+// 2. CORE SYSTEM
+@use "base";
+@use "navigation";
+@use "components";
+
+// 3. SECTION INJECTION (Bottom to Top)
+@use "contactus";
+@use "testimonials";
+@use "whyus";
+@use "deals";
+@use "hero";
+
+// 4. GLOBAL BRAND OVERRIDES
+body {
+    background-color: $deep-black;
+    color: $pure-white;
+    margin: 0;
+    font-family: 'Montserrat Variable', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: $pure-white;
+}
+
+// Global button style for the shop
+.btn-primary {
+    background-color: $primary-red !important;
+    border-color: $primary-red !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0; // Hard edges like Car Club
+}
