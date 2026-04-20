@@ -1,0 +1,56 @@
+// Division Auto Body - Testimonials & Glide Carousels
+// import partials ---
+@use "./variables" as v;
+
+.testimonial {
+  .blockquote {
+    font-size: .95rem; // Slightly larger for readability
+    border-left: 3px solid v.$primary;
+    padding-left: 15px;
+    color: #ccc;
+  }
+}
+
+.star-ratings {
+  font-size: 1.5rem;
+  color: v.$primary; // Switched from yellow to Division Red
+}
+
+.star-ratings > i {
+  text-shadow: v.$text-shadow;
+}
+
+// Glide Carousel Navigation Arrows
+.glide-deals,
+.glide-services,
+.glide-reviews {
+  position: relative;
+
+  .glide__arrow {
+    background-color: rgba(v.$primary, 0.8);
+    border: none;
+    color: v.$light;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: v.$transition;
+
+    &:hover {
+      background-color: v.$light;
+      color: v.$dark;
+    }
+  }
+
+  .glide__arrow--left {
+    left: -20px; // Offset slightly for a modern look
+  }
+
+  .glide__arrow--right {
+    right: -20px;
+  }
+}
+
+// Mobile adjustment for arrows
+@media (max-width: 768px) {
+  .glide__arrow--left { left: 0; }
+  .glide__arrow--right { right: 0; }
+}
