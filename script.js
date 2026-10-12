@@ -18,7 +18,7 @@ menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setM
 
 // Open / closed status (uses the shop's own time zone, Pakistan)
 const showStatus = () => {
-  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Karachi" }));
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
   const day = now.getDay();
   const hour = now.getHours();
   const open = day >= 1 && day <= 5 && hour >= 9 && hour < 17;
