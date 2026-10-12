@@ -63,7 +63,7 @@ $("#form").addEventListener("submit", (e) => {
   const msg = $("#f-msg").value.trim();
   const subject = encodeURIComponent("Website enquiry from " + name);
   const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\n" + msg);
-  window.location.href = "mailto:EMAIL@YOURDOMAIN.COM?subject=" + subject + "&body=" + body;
+  window.location.href = "mailto:divisionautobodynj@gmail.com?subject=" + subject + "&body=" + body;
   $("#form-note").textContent = "Thank you. Your email app will open so you can send this message.";
 });
 
