@@ -16,7 +16,7 @@ const setMenu = (open) => {
 burger.addEventListener("click", () => setMenu(!menu.classList.contains("open")));
 menu.querySelectorAll("a").forEach((a) => a.addEventListener("click", () => setMenu(false)));
 
-// Open / closed status (uses the shop's own time zone, Pakistan)
+// Open / closed status (uses the shop's own time zone, New Jersey)
 const showStatus = () => {
   const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/New_York" }));
   const day = now.getDay();
@@ -63,7 +63,7 @@ $("#form").addEventListener("submit", (e) => {
   const msg = $("#f-msg").value.trim();
   const subject = encodeURIComponent("Website enquiry from " + name);
   const body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\n" + msg);
-  window.location.href = "mailto:saqib@saqibtech.com?subject=" + subject + "&body=" + body;
+  window.location.href = "mailto:EMAIL@YOURDOMAIN.COM?subject=" + subject + "&body=" + body;
   $("#form-note").textContent = "Thank you. Your email app will open so you can send this message.";
 });
 
